@@ -1,31 +1,37 @@
+
 package com.example.inferno_bot.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Dark Theme Colors - Deep grays with soft accents
-val DarkBackground = Color(0xFF0D1117)
-val DarkSurface = Color(0xFF161B22)
-val DarkSurfaceVariant = Color(0xFF1C2128)
-val DarkBorder = Color(0xFF21262D)
+// Dark theme background colors
+val DarkBackground = Color(0xFF0D0D0D)
+val DarkSurface = Color(0xFF161616)
+val DarkSurfaceVariant = Color(0xFF1E1E1E)
+val DarkBorder = Color(0xFF2A2A2A)
 
-// User Message Bubble - Blue gradient
-val UserBubble = Color(0xFF1E88E5)
-val UserBubbleDark = Color(0xFF1565C0)
+// Text colors
+val TextPrimary = Color(0xFFFFFFFF)
+val TextSecondary = Color(0xFFB0B0B0)
+val TextTertiary = Color(0xFF6F6F6F)
 
-// Bot Message Bubble - Gray with purple tint
-val BotBubble = Color(0xFF1C2128)
-val BotBubbleBorder = Color(0xFF30363D)
+// Accent colors
+val AccentPurple = Color(0xFF9B5DE5)
+val AccentPink = Color(0xFFF15BB5)
+val AccentCyan = Color(0xFF00BBF9)
+val OnlineGreen = Color(0xFF00E676)
 
-// Accent Colors
-val AccentPurple = Color(0xFF9D4EDD)
-val AccentPink = Color(0xFFE91E63)
-val AccentCyan = Color(0xFF00BCD4)
+// 🔥 Inferno (user) theme colors
+val InfernoOrange = Color(0xFFFF6B00)
+val InfernoRed = Color(0xFFFF3C00)
+val UserBubble = InfernoOrange
+val UserBubbleDark = InfernoRed
 
-// Text Colors
-val TextPrimary = Color(0xFFE6EDF3)
-val TextSecondary = Color(0xFF8B949E)
-val TextTertiary = Color(0xFF6E7681)
+// 🤖 Bot bubble colors (dark charcoal)
+val BotBubble = Color(0xFF2A2A2A)
+val BotBubbleDark = Color(0xFF1C1C1C)
 
-// Status Colors
-val OnlineGreen = Color(0xFF3FB950)
+// Text colors inside bubbles
+val BubbleTextOnUser = Color.White
+val BubbleTextOnBot = Color(0xFFBFC6CC)
+
 val ErrorRed = Color(0xFFEF4444)

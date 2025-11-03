@@ -5,7 +5,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object NetworkClient {
-    private const val BASE_URL = "https://generativelanguage.googleapis.com"
+    private const val BASE_URL = "https://generativelanguage.googleapis.com/"
+
 
     private val okHttpClient = OkHttpClient.Builder()
         .build()
